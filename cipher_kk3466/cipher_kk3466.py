@@ -1,4 +1,38 @@
 def cipher(text, shift, encrypt=True):
+    """
+    Describe the funtion 
+    Encrypt and decrypt a string using the function by different shift number.
+    
+    Parameters 
+    ----------
+    text : string
+          The string that contains alphabet we would like to encrypt or decrypt.
+    
+    shift : int
+          The int that either positive or negative number to shift text to encrypt or decrypt.
+           
+    encrypt : bool
+          The bool decides the text whether encrypt or not.
+          
+    
+    Returns
+    ----------
+    str
+        The text after it is encrypted or decrypted.
+    
+    
+    Example
+    ----------
+    >>> from cipher_kk3466 import cipher_kk3466
+    >>> text = 'coding'
+    >>> shift = 1
+    >>> cipher_kk3466.cipher(text, shift, encrypt = True)
+    'dpejoh'
+    
+    """
+
+
+
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     new_text = ''
     for c in text:
