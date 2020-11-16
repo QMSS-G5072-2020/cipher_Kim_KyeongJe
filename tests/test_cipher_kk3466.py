@@ -6,8 +6,6 @@ def test_version():
     
     
 def test_cipher():
-    example = 'cats'
-    shift = 1
-    return cipher(example, shift)
-    
-test_cipher()
+    expected = 'dpejoh'
+    actual = cipher_kk3466.cipher("coding", 1, True)
+    assert actual == expected
