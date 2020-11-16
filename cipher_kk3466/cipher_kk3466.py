@@ -1,3 +1,7 @@
+
+
+
+
 def cipher(text, shift, encrypt=True):
     """
     Describe the funtion 
